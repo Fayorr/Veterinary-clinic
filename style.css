@@ -42,8 +42,8 @@ nav li{
 }
 .circle{
     border-radius: 50%;
-        width: 17vw;
-        height: 17vh;
+        width: 16vw;
+        height: 16vh;
         display: flex;
         justify-content: center;
         align-items: center;
