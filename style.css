@@ -3,4 +3,63 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Quicksand', sans-serif; */
+}
+
+ /* .container{
+    padding: 0 1.5rem; 
+}  */
+.logo {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 17vw;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    padding: 0 1.5rem;
+    background-color: #D5E5F5;
+}
+nav ul{
+    display: none;
+}
+nav li{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+.first-section{
+    background-color: #D5E5F5;
+    padding: 0 1.5rem;
+}
+.circle{
+    border-radius: 50%;
+        width: 17vw;
+        height: 17vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.circle img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+    }
 }
