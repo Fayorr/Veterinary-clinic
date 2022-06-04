@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/Our-pets-logo.ico"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&family=Poppins:wght@300;400&family=Quicksand:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Poppins:wght@300;400&family=Quicksand:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -148,11 +153,11 @@
         </div>
       </section>
       <section class="fourth-section">
-        <div>
+        <div class="fourth-section-header">
           <h2>What do our Patients Say?</h2>
         </div>
         <div class="testimonials-container">
-          <div class="testimonial-1">
+          <div class="testimonial">
             <img src="assets/quotes.png" alt="quote" />
             <h5>Experienced Doctors</h5>
             <p>
@@ -175,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="testimonial-2">
+          <div class="testimonial">
             <div class="next-comment">
               <img src="assets/quotes.png" alt="quote" />
               <p>Next Comment &#8594;</p>
@@ -225,16 +230,21 @@
         </div>
       </section>
       <section class="sixth-section">
-        <h2>Subscribe to our NewsLetter</h2>
-        <form action="#" method="get">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter your Email"
-          />
-          <button class="btn">Submit</button>
-        </form>
+        <div class="sixth-section-container">
+          <h2>Subscribe to our NewsLetter</h2>
+          <div class="form-button-container">
+            <form action="#" method="get">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+                required
+              />
+              <button class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
       </section>
       <footer>
         <div class="footer">
@@ -253,6 +263,7 @@
             <p>Contact Us</p>
           </div>
           <div class="contact foot">
+            <h3>Contact</h3>
             <p>(+62)893912392190</p>
             <p>agencycr@gmail.com</p>
           </div>
@@ -263,15 +274,19 @@
             <p>team@OsiriasRealEstate.com</p>
           </div>
         </div>
-        <div class="social-icons">
-          <img src="assets/facebook.png" alt="facebook-icon" />
-          <img src="assets/instagram.png" alt="instagram-icon" />
-          <img src="assets/linkedin (2).png" alt="linkedin-icon" />
-          <img src="assets/mail.png" alt="mail-icons" />
-          <img src="assets/Twitter.png" alt="Twitter-icon" />
+        <div class="social-container">
+          <div class="social-icons">
+            <img src="assets/facebook.png" alt="facebook-icon" />
+            <img src="assets/instagram.png" alt="instagram-icon" />
+            <img src="assets/linkedin (2).png" alt="linkedin-icon" />
+            <img src="assets/mail.png" alt="mail-icons" />
+            <img src="assets/Twitter.png" alt="Twitter-icon" />
+          </div>
+          <div class="line2"></div>
+          <p class="copyright">
+            Copyright @ 2022 Agency Creative. All Right Reserved
+          </p>
         </div>
-        <div class="line"></div>
-        <p>Copyright @ 2022 Agency Creative. All Right Reserved</p>
       </footer>
     </div>
   </body>
