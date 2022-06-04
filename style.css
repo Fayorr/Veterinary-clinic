@@ -62,6 +62,5 @@ nav li{
     nav ul{
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 }
