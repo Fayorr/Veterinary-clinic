@@ -40,6 +40,10 @@ nav li{
     font-weight: 500;
 }
 .first-section{
+            /* display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center; */
     background-color: #D5E5F5;
     padding: 0 1.5rem;
 }
@@ -62,7 +66,6 @@ nav li{
     font-weight: 600;
 }
 .first-section h1{
-    /* background-color: red; */
 font-size: 2.8em;
 margin: 1.5rem 0;
 height: 130%;
@@ -375,6 +378,12 @@ width: 65%;
 .line-container p{
     font-size: 1.5rem;
 }
+/* .first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
 .first-section h1{
     font-size: 4.5rem;
     line-height: 6rem;
@@ -456,8 +465,177 @@ width: 60%;
         justify-content: space-between;
         align-items: center;
     }
+        .logo{
+            width: 11vw;
+        }
     nav #ul{
         display: flex;
         justify-content: space-between;
     }
+         .first-section{
+             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 2rem 5rem;
+        } 
+        .dog-image img{
+            margin-top: -1rem;
+        width: 100%;
+        height: auto;
+        }
+        .first-section-container{
+            width: 70%;
+        }
+        .line-container {
+            max-width: 31vw;
+        }
+    
+        .line-container p {
+            font-size: 1.5rem;
+        }
+    
+        .first-section h1 {
+            font-size: 4.5rem;
+            line-height: 6rem;
+        }
+    
+        .first-section p {
+            font-size: 1.2rem;
+        }
+    
+        .btn {
+            width: 26%;
+            height: 3.8rem;
+        }
+        .second-section h2 {
+            font-size: 2.5rem;
+        }
+.offer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0rem 5rem;
+}
+        .offer {
+            width: 31%;
+        }
+    
+        .circle {
+            width:3rem;
+            height: 3rem;
+        }
+    
+        .info-PopUp {
+            position: absolute;
+            top: 10%;
+            left: 7%;
+        }
+    
+        .third-section {
+            display: flex;
+            justify-content: center;
+        align-items: center;
+        padding: 0 5rem 4rem ;
+    }
+    .doctor-img{
+        height: 90%;
+        padding: 0;
+        margin: 0;
+  
+    }
+    .doctor-img img{
+        width: 70%;
+        max-height: 50rem;
+        padding: 0;
+        margin: 0;
+        margin-left: 5rem;
+
+    }
+    .doctor-text{
+        width: 70%;
+    }
+        .third-section p {
+            width: 95%;
+        }
+    
+        .testimonials-container {
+            display: flex;
+            flex-direction: row;
+            padding: 3rem 5rem;
+        }
+    
+        .testimonial {
+            max-width: 50%;
+        }
+    
+        .fifth-section-head {
+            width: 95%;
+            padding: 0 5rem;
+        }
+    .doctor-section-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5rem;
+    }
+        .doctor-section {
+            width: 30%;
+            margin: 0 auto;
+            padding-bottom: 1.3rem;
+        }
+    .sixth-section{
+        padding: 5rem;
+        height: 30rem;
+    }
+        .sixth-section-container {
+            
+            width: 95%;
+            padding:5rem;
+            border-radius: 1rem;
+        }
+        #email {
+            height: 4rem;
+        }
+    
+        .submit {
+            margin-left: 9rem;
+            height: 4rem;
+            padding: .5rem 0;
+        }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+padding: 5rem;
+    }
+    .foot{
+        width: 12%;
+    }
+        .foot h3 {
+            font-size: 2rem;
+        }
+    
+        .foot p {
+            padding-top: .5rem;
+            font-size: 1rem;
+        }
+        .location{
+            text-align: center;
+        }
+    .team{
+        text-align: center;
+    }
+        .social-icons img {
+            width: 3.5%;
+        }
+    .line2{
+        width: 30rem;
+    }
+        .form-button-container {
+            padding: 1rem 0;
+        }
 }
