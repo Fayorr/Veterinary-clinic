@@ -87,7 +87,7 @@ line-height: 3.4rem;
 }
 .dog-image img{
     width: 100%;
-    margin-top: -10rem;
+    margin-top: -6rem;
 }
 .second-section{
     background-color: #E9F4FF;
@@ -265,7 +265,7 @@ width: 14%;
 .doctor-section{
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+   
 }
 .doctor-section img{
 padding-bottom: 1rem;
@@ -304,7 +304,6 @@ font-weight: 500;
     border-radius: 1rem;
     width: 100%;
     margin: 0 auto;
-    /* padding: 1rem; */
 }
 .form-button-container #email{
     font-size: 1rem;
@@ -353,21 +352,95 @@ margin: 0 auto;
     margin: 0 auto;
   
 }
+.social-icons{
+    padding-bottom: .6rem;
+}
 .social-icons img{
     width: 5%;
 }
 .line2{
-    width: 40vw;
-        height: 1px;
+   width: 70vw;
+        height: .9px;
 background-color: #00214d;
 }
 .copyright{
-
+width: 65%;
     font-size: .8rem;
-    padding-bottom: .5rem;
+    padding: .5rem 0;
+}
+@media only screen and (min-width: 768px) {
+.line-container{
+    width: 41vw;
+}
+.line-container p{
+    font-size: 1.5rem;
+}
+.first-section h1{
+    font-size: 4.5rem;
+    line-height: 6rem;
+}
+.first-section p{
+        font-size: 1.2rem;
+    }
+.btn{
+    width: 26%;
+}
+.dog-image{
+    margin-top: -10rem;
+}
+.second-section h2{
+    font-size: 2.5rem;
+}
+.offer{
+width: 60%;
+}
+.circle{
+    width: 9.5vw;
+        height: 7vh;
+}
+  .info-PopUp {
+      position: absolute;
+     top: 12%;
+     left: 14%;
+  }
+  .third-section{
+      padding-bottom: 4rem;
+  }
+  .third-section p{
+   width: 95%;
+  }
+  .testimonials-container {
+      display: flex;
+      flex-direction: row;
+  }
+  .testimonial{
+      max-width: 50%;
+}
+.fifth-section-head{
+    /* width: 95%; */
+    padding: 0 1rem;
+}
+.doctor-section{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1.3rem;
+}
+.submit{
+    margin-left: 5.5rem;
+}
+.foot h3 {
+    font-size: 2rem;
 }
 
-@media screen and (max-width: 992px) {
+.foot p {
+    padding-top: .5rem;
+    font-size: 1.5rem;
+}
+.social-icons img{
+        width: 8%;
+}
+}
+@media only screen and (min-width: 992px) {
     nav{
         display: flex;
         justify-content: space-between;
