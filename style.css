@@ -53,7 +53,6 @@ nav {
 nav ul {
     --padding: 20px;
     --font-size: 17px;
-background-color: red;
     list-style: none;
     display: flex;
     align-items: center;
@@ -186,14 +185,14 @@ nav .menu.active span:nth-child(2) {
 }
 .line-container{
    padding-top: 3rem;
-    width: 48vw;
+    width: 55vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
 }
 .line {
-    width: 20vw;
+    width: 15rem;
     height: 2px;
     background-color: #00214d;
 }
@@ -501,9 +500,9 @@ width: 65%;
     font-size: .8rem;
     padding: .5rem 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
 .line-container{
-    width: 41vw;
+    width: 48.5vw;
 }
 .line-container p{
     font-size: 1.5rem;
@@ -607,7 +606,7 @@ width: 60%;
             width: 70%;
         }
         .line-container {
-            max-width: 31vw;
+            width: 25rem;
         }
     
         .line-container p {
