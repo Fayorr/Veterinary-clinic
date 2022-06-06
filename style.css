@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6{
 .logo {
     border-radius: 50%;
     width: 17vw;
-    height: 17vh;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +47,13 @@ nav {
     background: #D5E5F5;
     z-index: 100;
     padding: 0 1.5rem;
+    margin: 0;
 }
 
 nav ul {
     --padding: 20px;
     --font-size: 17px;
-
+background-color: red;
     list-style: none;
     display: flex;
     align-items: center;
@@ -86,8 +87,8 @@ nav ul li a:hover::after {
 }
 
 nav .menu {
-    width: 1.3rem;
-    height: 1rem;
+width: 22px;
+    height: 16px;
     cursor: pointer;
     display: none;
     align-items: center;
