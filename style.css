@@ -584,7 +584,7 @@ width: 60%;
     padding: 1rem 0;
 }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 910px) {
 
         .logo{
             width: 11vw;
