@@ -222,6 +222,11 @@ line-height: 3.4rem;
     cursor: pointer;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+.btn:hover, .btn:active{
+border: 3px solid #3781E3 ;
+transform: translateY(-2px);
+transition: all 100ms ease-in;
+}
 .dog-image img{
     width: 100%;
     margin-top: -6rem;
