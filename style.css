@@ -63,7 +63,10 @@ nav ul {
 
 nav ul li {
     padding: var(--padding);
+    
 }
+nav ul li:hover{
+    transform: translateY(-1px);}
 nav ul li a {
     color: #00214d;
     text-decoration: none;
@@ -83,6 +86,7 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
+    border-bottom: 1.5px solid #3781E3;
 }
 
 nav .menu {
